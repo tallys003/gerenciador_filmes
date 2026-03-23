@@ -1,0 +1,14 @@
+{
+  "name": "gerenciador_filmes",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "API de filmes com Fastify",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch server.js"
+  },
+  "dependencies": {
+    "fastify": "^5.8.4",
+    "pg": "^8.20.0"
+  }
+}

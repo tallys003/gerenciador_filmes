@@ -1,0 +1,26 @@
+### Listar filmes
+GET http://localhost:3000/filmes
+
+### Criar filme
+POST http://localhost:3000/filmes
+Content-Type: application/json
+
+{
+  "titulo": "Indiana Jones",
+  "genero": "Aventura",
+  "ano_lancamento": 1981
+}
+### Listar novamente
+GET http://localhost:3000/filmes
+
+### Atualizar filme (id = 1)
+PUT http://localhost:3000/filmes/1
+Content-Type: application/json
+
+{
+  "titulo": "Indiana Jones e os Caçadores da Arca Perdida",
+  "genero": "Aventura",
+  "ano": 1981
+}
+### Deletar filme
+DELETE http://localhost:3000/filmes/1

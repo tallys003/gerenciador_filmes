@@ -1,0 +1,6 @@
+CREATE TABLE filme (
+  id SERIAL PRIMARY KEY,
+  titulo VARCHAR(100),
+  genero VARCHAR(50),
+  ano INT
+);
